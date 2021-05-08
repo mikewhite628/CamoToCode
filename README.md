@@ -13,11 +13,6 @@ mission statment here
 ### Our Goal
 goal here
 
-### `npm run build`
 
 
-### `npm run eject`
-
-**Note: Seeing what this looks like**
-
-
+`**Note: Seeing what this looks like**`
