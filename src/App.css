@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+a, .no-underline {
+  text-decoration: none !important;
+}
+
+.app {
+  font-family: "Roboto";
+  overflow-x: hidden;
+}
+
 .custom-nav {
   padding: 0;
   background-color: #0b3c60;
@@ -7,12 +17,79 @@
 }
 
 .fullscreen {
-  height: 60vh;
+  height: 100vh;
   width: 100vw;
 }
 
 .creame-background {
   background-color: #fffff8;
+}
+
+.nav-icon {
+  height: 40px;
+  width: 60px;
+  padding-left: 5px;
+}
+
+.centered-title {
+  font-size: 40px !important;
+  text-align: center;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px #777777;
+}
+
+.smaller-centered-title {
+  font-size: 20px !important;
+  text-align: center;
+  font-weight: 300;
+  text-shadow: 1px 1px 3px #777777;
+}
+
+.bullet {
+  background: url("../src/images/bullet.png") no-repeat left top;
+  padding-top: 7px;
+  padding-left: 44px;
+}
+
+.bullet-list {
+  list-style-type: none;
+}
+
+.no-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.box-shadow {
+  box-shadow: 3px 3px 8px #777777;
+}
+
+.grow {
+  -webkit-transition: all 0.1s ease-in-out;
+  font-size: 20px;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.01);
+}
+
+.black-font {
+  color: black !important;
+}
+
+.stand-out-border {
+  outline: 2px solid #0b3c60;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: #fffff8 !important;
+}
+
+.stand-out-border-text {
+  color: #d32c1d;
+}
+
+.blue-text {
+  color: #0b3c60;
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -16,14 +16,14 @@ function Footer() {
                     More To Come Soon!
                 </Card.Title>
                 <Card.Body>
-                    Camo To Code is Currently Under Contruction! Please feel free to bookmark this page now to access some of the best FREE learning resources for veterans looking to change careers!
+                    Camo To Code is Currently In Develpment! Soon this page will provide access to some of the best FREE learning resources for veterans looking to change careers!
                 </Card.Body>
             </Card>
         </Col>
 
     </Row>
     <Row>
-        <Col>Copyright symbol 2021</Col>
+        <Col>&#169;</Col>
     </Row>
    </Container>
   );

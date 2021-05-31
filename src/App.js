@@ -22,9 +22,9 @@ function App() {
 
   return (
     <Router>
-    <Container fluid style={{paddingLeft:'0', paddingRight:'0'}}>
-    <Navbar className='custom-nav mr-auto mb-5' collapseOnSelect expand='lg' fixed='top'>
-        <NavLink to='/'><Navbar.Brand><img src={icon} style={{height:'50px', width: '80px'}}/></Navbar.Brand></NavLink>
+    <Container fluid className='app no-padding'>
+    <Navbar className='custom-nav mr-auto mb-5' collapseOnSelect expand='sm' fixed='top'>
+        <NavLink to='/'><Navbar.Brand><img src={icon} className='nav-icon'/></Navbar.Brand></NavLink>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ms-auto'>
@@ -35,7 +35,7 @@ function App() {
     </Navbar>
         <Switch>
         <Route exact path='/'>
-        <Home 
+        <Home
         />
         </Route>
         <Route path='/about'>
