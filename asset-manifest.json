@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/CamoToCode/static/css/main.28ad5509.chunk.css",
+    "main.js": "/CamoToCode/static/js/main.f0606269.chunk.js",
+    "main.js.map": "/CamoToCode/static/js/main.f0606269.chunk.js.map",
+    "runtime-main.js": "/CamoToCode/static/js/runtime-main.15b87d60.js",
+    "runtime-main.js.map": "/CamoToCode/static/js/runtime-main.15b87d60.js.map",
+    "static/css/2.800be05e.chunk.css": "/CamoToCode/static/css/2.800be05e.chunk.css",
+    "static/js/2.efa18a71.chunk.js": "/CamoToCode/static/js/2.efa18a71.chunk.js",
+    "static/js/2.efa18a71.chunk.js.map": "/CamoToCode/static/js/2.efa18a71.chunk.js.map",
+    "index.html": "/CamoToCode/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/CamoToCode/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.28ad5509.chunk.css.map": "/CamoToCode/static/css/main.28ad5509.chunk.css.map",
+    "static/js/2.efa18a71.chunk.js.LICENSE.txt": "/CamoToCode/static/js/2.efa18a71.chunk.js.LICENSE.txt",
+    "static/media/ctc-words.223f6e71.svg": "/CamoToCode/static/media/ctc-words.223f6e71.svg",
+    "static/media/icon.846486a1.jpg": "/CamoToCode/static/media/icon.846486a1.jpg",
+    "static/media/me.f6b519bd.jpg": "/CamoToCode/static/media/me.f6b519bd.jpg",
+    "static/media/office.8aad17f3.jpg": "/CamoToCode/static/media/office.8aad17f3.jpg",
+    "static/media/salute.18dc96f1.jpg": "/CamoToCode/static/media/salute.18dc96f1.jpg",
+    "static/media/study.57608905.jpg": "/CamoToCode/static/media/study.57608905.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15b87d60.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.efa18a71.chunk.js",
+    "static/css/main.28ad5509.chunk.css",
+    "static/js/main.f0606269.chunk.js"
+  ]
+}
