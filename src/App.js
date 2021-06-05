@@ -13,6 +13,7 @@ import {
 } from 'react-router-dom'
 import AboutUs from './AboutUs/AboutUs'
 import icon from '../src/images/icon.jpg'
+import { Helmet } from 'react-helmet'
 
 
 
@@ -23,6 +24,10 @@ function App() {
   return (
     <Router>
     <Container fluid className='app no-padding'>
+      <Helmet>
+        <title>Camo To Code</title>
+        <meta name='description' content='A free resource made for Veterans looking to transition into a career in web development!' />
+      </Helmet>
     <Navbar className='custom-nav mr-auto mb-5' collapseOnSelect expand='sm' fixed='top'>
         <NavLink to='/'><Navbar.Brand><img src={icon} className='nav-icon'/></Navbar.Brand></NavLink>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
