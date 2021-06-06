@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Card, Button, Col, Row, ListGroup, Container, ListGroupItem, Accordion} from 'react-bootstrap'
+import { Card, Col, Row, ListGroup, Container, ListGroupItem } from 'react-bootstrap'
 import study1 from '../images/study.jpg'
 import { Link } from 'react-router-dom';
 

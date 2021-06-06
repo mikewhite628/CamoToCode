@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Carousel, Button, Col, Jumbotron, Card, Row, Container, ListGroup, ListGroupItem, Accordion} from 'react-bootstrap'
+import {Button, Col,Card, Row, Container, Accordion} from 'react-bootstrap'
 import me from '../../src/images/me.jpg'
 import office from '../../src/images/office.jpg'
 

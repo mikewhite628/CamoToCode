@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { Carousel, Button, Col, Image} from 'react-bootstrap'
+import React from 'react'
+import {Image} from 'react-bootstrap'
 import logo1 from '../../src/images/ctc-words.svg'
 
 function HomeCarousel () {

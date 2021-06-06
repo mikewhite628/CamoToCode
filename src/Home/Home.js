@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Carousel, Button, Col, Container,} from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import HomeCarousel from './HomeCarousel';
 import HomeInfo from './HomeInfo';
 
