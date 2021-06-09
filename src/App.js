@@ -40,7 +40,7 @@ function App() {
     </Navbar>
         <Switch>
         <Route exact path='/'>
-        <Home
+        <Home className='center-content'
         />
         </Route>
         <Route path='/about'>

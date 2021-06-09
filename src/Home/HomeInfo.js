@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 function HomeInfo() {
   return (
     <Container fluid className='no-padding'>
-    <Row className={'mb-3 mt-3'}>
-    <Col sm={6}>
+    <Row className={'mb-3 mt-3 justify-content-center'}>
+    <Col sm={12} md={5} lg={5}>
    <Card border='0'>
        <Card.Title className='centered-title'> Are you a <u>Veteran</u> considering a career in tech?</Card.Title>
        <Card.Body>
@@ -18,18 +18,18 @@ function HomeInfo() {
        want to cut through the fluff and get you right back into the fight with the tools you need to accomplish your mission.
        </Card.Body>
        <ListGroup className='list-group-flush'>         
-         <ListGroupItem className='list-group-item list-group-item-action grow'> <a className='blue-text' href='https://michaelwhite.hashnode.dev/so-you-want-to-learn-how-to-code-what-next'>I want to learn how to code. What next?</a></ListGroupItem>
-         <ListGroupItem className='list-group-item list-group-item-action grow'> <a className='blue-text' href='https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/'>How Do I choose a language?</a></ListGroupItem>
-         <ListGroupItem className='list-group-item list-group-item-action grow'> <a className='blue-text' href='https://www.developerdrive.com/best-places-learn-how-to-code/'>I know what language I want to learn, Where do I go to learn it?</a></ListGroupItem>
-         <ListGroupItem className='list-group-item list-group-item-action grow'> <a className='blue-text' href='https://www.freecodecamp.org/news/10-tips-for-success-when-youre-learning-to-code-65ff55a52bed/'> How can improve the self  education process?</a> </ListGroupItem>
-         <ListGroupItem className='list-group-item list-group-item-action grow stand-out-border'> <Link to='/about' className='stand-out-border-text'>Learn More About Camo To Code</Link></ListGroupItem>
+         <ListGroupItem className='list-group-item list-group-item-action grow'> <a className='blue-text list-font-size' href='https://michaelwhite.hashnode.dev/so-you-want-to-learn-how-to-code-what-next'>I want to learn how to code. What next?</a></ListGroupItem>
+         <ListGroupItem className='list-group-item list-group-item-action grow'> <a className='blue-text list-font-size' href='https://www.freecodecamp.org/news/how-to-choose-a-programming-language-and-escape-tutorial-purgatory/'>How Do I choose a language?</a></ListGroupItem>
+         <ListGroupItem className='list-group-item list-group-item-action grow'> <a className='blue-text list-font-size' href='https://www.developerdrive.com/best-places-learn-how-to-code/'>I know what language I want to learn, Where do I go to learn it?</a></ListGroupItem>
+         <ListGroupItem className='list-group-item list-group-item-action grow'> <a className='blue-text list-font-size' href='https://www.freecodecamp.org/news/10-tips-for-success-when-youre-learning-to-code-65ff55a52bed/'> How can improve the self  education process?</a> </ListGroupItem>
+         <ListGroupItem className='list-group-item list-group-item-action grow stand-out-border'> <Link to='/about' className='stand-out-border-text list-font-size'>Learn More About Camo To Code</Link></ListGroupItem>
        </ListGroup>
    </Card>
    </Col>
 
-    <Col sm={6} >
+    <Col sm={12} md={6} lg={5} >
    <Card>
-       <Card.Img src={study1} className={'box-shadow'}/>
+       <Card.Img src={study1} className={'box-shadow'} />
    </Card>
    </Col>
    </Row>

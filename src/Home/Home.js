@@ -7,7 +7,7 @@ import HomeInfo from './HomeInfo';
 function Home() {
 
   return (
-    <Container fluid className='mt-5 no-padding'>
+    <Container fluid className='mt-5 no-padding center-content'>
     <HomeCarousel />
     <HomeInfo />
     </Container>
