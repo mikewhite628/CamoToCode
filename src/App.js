@@ -28,7 +28,7 @@ function App() {
         <title>Camo To Code</title>
         <meta name='description' content='A free resource made for Veterans looking to transition into a career in web development!' />
         <meta name='keywords' content='camo to code, learn to code, coding resources for veterans, veterans learning to code,
-        veteran, veteran services, learn to code for free, free coding tools, cammo to code, cammtocode, camo 2 code' />
+        veteran, veteran services, learn to code for free, free coding tools, cammo to code, cammtocode, camo 2 code, web design' />
       </Helmet>
     <Navbar className='custom-nav mr-auto mb-5' collapseOnSelect expand='sm' fixed='top'>
         <NavLink to='/'><Navbar.Brand><img src={icon} alt='Camo to Code Logo'className='nav-icon'/></Navbar.Brand></NavLink>
